@@ -11,7 +11,7 @@ const Wilson = () => {
     languages: ['🇨🇳 Chinese', '🇬🇧 English'],
     skills: ['⚛️ Next.js', '🖖 Vue.js', '🚀 Node.js'],
     status: '💻 Web Developer',
-    email: '404 🙈',
+    email: '📧 wilson.ding.wm@gmail.com',
     website: '🌐 https://weimengding.online/'
   });
 
@@ -24,6 +24,8 @@ const Wilson = () => {
           <li key={index}>{skill}</li>
         ))}
       </ul>
+      <p>{developer.email}</p>
+      <p>{developer.website}</p>
     </div>
   );
 };
