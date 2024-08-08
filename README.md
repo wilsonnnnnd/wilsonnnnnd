@@ -1,16 +1,31 @@
-## Hi there 👋
+# 👋 Hello World! I'm Wilson 🐼
 
-<!--
-**wilsonnnnnd/wilsonnnnnd** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+![Coding Gif](https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif)
 
-Here are some ideas to get you started:
+```jsx
+import React from 'react';
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+const Wilson = () => {
+  const [developer, setDeveloper] = React.useState({
+    name: 'Wilson',
+    languages: ['🇨🇳 Chinese', '🇬🇧 English'],
+    skills: ['⚛️ Next.js', '🖖 Vue.js', '🚀 Node.js'],
+    status: '💻 Web Developer',
+    email: '404 🙈',
+    website: '🌐 https://weimengding.online/'
+  });
+
+  return (
+    <div>
+      <h1>{developer.name}</h1>
+      <p>{developer.status}</p>
+      <ul>
+        {developer.skills.map((skill, index) => (
+          <li key={index}>{skill}</li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+export default Wilson;
