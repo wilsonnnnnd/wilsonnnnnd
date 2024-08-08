@@ -8,7 +8,7 @@ import React from 'react';
 const Wilson = () => {
   const [developer, setDeveloper] = React.useState({
     name: 'Wilson',
-    languages: ['🇨🇳 Chinese', '🇬🇧 English'],
+    languages: ['Chinese', 'English'],
     skills: ['⚛️ Next.js', '🖖 Vue.js', '🚀 Node.js'],
     database: ['📊 MySQL', '🍃 MongoDB', '🔥 Firebase'],
     devOps: ['🛠️ Git'],
