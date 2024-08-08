@@ -1,6 +1,6 @@
 # 👋 Hello World! I'm Wilson 🐼
 
-![Cute Yellow Dino](https://media.giphy.com/media/XbxZ41fWLeRECPsGIJ/giphy.gif)
+![Coding Gif](https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif)
 
 ```jsx
 import React from 'react';
