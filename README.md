@@ -3,8 +3,6 @@
 
 I am passionate about building scalable, efficient, and innovative solutions using modern technologies. My recent focus includes enhancing my skills in **React**, **Node.js**, **DevOps**, and **mobile app development** with **Expo**.
 
-![Coding Gif](https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif)
-
 ```jsx
 import React from 'react';
 
@@ -22,7 +20,7 @@ const Wilson = () => {
 
   return (
     <div>
-        ...
+        ![Coding Gif](https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif)
     </div>
   );
 };
