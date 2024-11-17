@@ -1,4 +1,7 @@
 # 👋 Hello World! I'm Wilson 🐼
+🎯 **Web & Mobile Developer** | 💡 **Lifelong Learner** | 🚀 **Problem Solver**
+
+I am passionate about building scalable, efficient, and innovative solutions using modern technologies. My recent focus includes enhancing my skills in **React**, **Node.js**, **DevOps**, and **mobile app development** with **Expo**.
 
 ![Coding Gif](https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif)
 
@@ -9,38 +12,17 @@ const Wilson = () => {
   const [developer, setDeveloper] = React.useState({
     name: 'Wilson',
     languages: ['Chinese', 'English'],
-    skills: ['⚛️ Next.js', '🖖 Vue.js', '🚀 Node.js'],
+    skills: ['⚛️ Next.js', '🖖 Vue.js', '🚀 Node.js','🐘Express.js', '📱React Native', '🧩RESTful APIs'],
     database: ['📊 MySQL', '🍃 MongoDB', '🔥 Firebase'],
-    devOps: ['🛠️ Git'],
-    status: '💻 Web Developer',
+    devOps: ['🛠️ Version Control:  **GitHub**, **Bitbucket**', '☁️Cloud Deployments: **Vercel**, **Hostinger**'],
+    status: '💻 Full stack Developer',
     email: '📧 wilson.ding.wm@gmail.com',
     website: '🌐 https://weimengding.online/'
   });
 
   return (
     <div>
-      <h1>{developer.name}</h1>
-      <p>{developer.status}</p>
-      <h2>Skills:</h2>
-      <ul>
-        {developer.skills.map((skill, index) => (
-          <li key={index}>{skill}</li>
-        ))}
-      </ul>
-      <h2>Database:</h2>
-      <ul>
-        {developer.database.map((db, index) => (
-          <li key={index}>{db}</li>
-        ))}
-      </ul>
-      <h2>DevOps:</h2>
-      <ul>
-        {developer.devOps.map((tool, index) => (
-          <li key={index}>{tool}</li>
-        ))}
-      </ul>
-      <p>{developer.email}</p>
-      <p>{developer.website}</p>
+        ...
     </div>
   );
 };
