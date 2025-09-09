@@ -4,7 +4,10 @@
 I love building scalable and user-friendly solutions across web and mobile.  
 Currently sharpening my skills in **React Native (Expo)**, **React.js**, **Node.js**, and **DevOps**.  
 Always curious. Always shipping.
+
+
 ![Coding Gif](https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif)
+
 ```jsx
 import React from 'react';
 
